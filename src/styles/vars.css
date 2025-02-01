@@ -1,0 +1,11 @@
+:root{
+    /* Fontes */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* Corres */
+    --letras: #b3b3b3;
+    --bg-box: #121212;
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+    --black: #000;
+}
