@@ -23,7 +23,15 @@ git clone https://github.com/JoaoVitorE/Spotify-Alura.git
 ```
 cd Spotify-Alura
 ```
-3. Abra o arquivo **index.html** no seu navegador.
+3. Para que o efeito da pesquisa funcione você precisa baixar o Node.js, após instalado, é necessário baixar o json server. Para fazer o download dele execute o seguinte comando no seu terminal:
+```
+npm install -g json-server@0.17
+```
+4. Após instalado, é só roda o seguinte comando na pasta do projeto:
+```
+json-server --watch api-artists/artists.json --port 3000 
+```
+5. Abra o arquivo **index.html** no seu navegador.
 
 # 🙌 Créditos
 Projeto desenvolvido durante a **Imersão da Alura** com foco em aprimoramento de habilidades front-end. 
